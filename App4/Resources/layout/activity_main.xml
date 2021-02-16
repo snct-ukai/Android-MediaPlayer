@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:gravity="center">
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="32.0dp"
+        android:gravity="center"
+        android:id="@+id/text" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="180.5dp"
+        android:id="@+id/linearLayout2"
+        android:gravity="center">
+        <Button
+            android:text="ファイル選択"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:id="@+id/find_file" />
+        <Button
+            android:text="再生"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:id="@+id/play_file" />
+    </LinearLayout>
+</LinearLayout>
